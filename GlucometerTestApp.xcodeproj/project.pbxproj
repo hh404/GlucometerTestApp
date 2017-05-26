@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8AA9E81ECAF3310012C309 /* Test.geojson in Resources */ = {isa = PBXBuildFile; fileRef = EC8AA9E71ECAF0370012C309 /* Test.geojson */; };
+		ECB93CEC1EAF488100A06CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93CEB1EAF488100A06CC7 /* main.m */; };
+		ECB93CEF1EAF488100A06CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93CEE1EAF488100A06CC7 /* AppDelegate.m */; };
+		ECB93CF21EAF488100A06CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93CF11EAF488100A06CC7 /* ViewController.m */; };
+		ECB93CF51EAF488100A06CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB93CF31EAF488100A06CC7 /* Main.storyboard */; };
+		ECB93CF71EAF488100A06CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB93CF61EAF488100A06CC7 /* Assets.xcassets */; };
+		ECB93CFA1EAF488100A06CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB93CF81EAF488100A06CC7 /* LaunchScreen.storyboard */; };
+		ECB93D031EB06ED000A06CC7 /* TSPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93D021EB06ED000A06CC7 /* TSPeripheralViewController.m */; };
+		ECB93D061EB0712300A06CC7 /* TSPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93D051EB0712300A06CC7 /* TSPeripheralManager.m */; };
+		ECB93D091EB07AD500A06CC7 /* TSCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93D081EB07AD500A06CC7 /* TSCentralManager.m */; };
+		ECB93D0C1EB084E100A06CC7 /* TSCentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93D0B1EB084E100A06CC7 /* TSCentralViewController.m */; };
+		ECB93D0F1EB18C5C00A06CC7 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB93D0E1EB18C5C00A06CC7 /* Message.m */; };
+		F23205423716B3CAC0E998D8 /* libPods-GlucometerTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 678715C9F3B63307CDCA9ECF /* libPods-GlucometerTestApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F0FD7BE469B6A8AA976070 /* Pods-GlucometerTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucometerTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlucometerTestApp/Pods-GlucometerTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		678715C9F3B63307CDCA9ECF /* libPods-GlucometerTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlucometerTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8C09AE57ED852B82BB2F57 /* Pods-GlucometerTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlucometerTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlucometerTestApp/Pods-GlucometerTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8AA9E71ECAF0370012C309 /* Test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test.geojson; sourceTree = "<group>"; };
+		ECB93CE71EAF488100A06CC7 /* GlucometerTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucometerTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB93CEB1EAF488100A06CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB93CED1EAF488100A06CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECB93CEE1EAF488100A06CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECB93CF01EAF488100A06CC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECB93CF11EAF488100A06CC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB93CF41EAF488100A06CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB93CF61EAF488100A06CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB93CF91EAF488100A06CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB93CFB1EAF488100A06CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB93D011EB06ED000A06CC7 /* TSPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPeripheralViewController.h; sourceTree = "<group>"; };
+		ECB93D021EB06ED000A06CC7 /* TSPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPeripheralViewController.m; sourceTree = "<group>"; };
+		ECB93D041EB0712300A06CC7 /* TSPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPeripheralManager.h; sourceTree = "<group>"; };
+		ECB93D051EB0712300A06CC7 /* TSPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPeripheralManager.m; sourceTree = "<group>"; };
+		ECB93D071EB07AD500A06CC7 /* TSCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCentralManager.h; sourceTree = "<group>"; };
+		ECB93D081EB07AD500A06CC7 /* TSCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCentralManager.m; sourceTree = "<group>"; };
+		ECB93D0A1EB084E100A06CC7 /* TSCentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCentralViewController.h; sourceTree = "<group>"; };
+		ECB93D0B1EB084E100A06CC7 /* TSCentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCentralViewController.m; sourceTree = "<group>"; };
+		ECB93D0D1EB18C5C00A06CC7 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		ECB93D0E1EB18C5C00A06CC7 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB93CE41EAF488100A06CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23205423716B3CAC0E998D8 /* libPods-GlucometerTestApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73333B6D6DBEB4D0272C58C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C09AE57ED852B82BB2F57 /* Pods-GlucometerTestApp.debug.xcconfig */,
+				01F0FD7BE469B6A8AA976070 /* Pods-GlucometerTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECB93CDE1EAF488100A06CC7 = {
+			isa = PBXGroup;
+			children = (
+				ECB93CE91EAF488100A06CC7 /* GlucometerTestApp */,
+				ECB93CE81EAF488100A06CC7 /* Products */,
+				73333B6D6DBEB4D0272C58C3 /* Pods */,
+				F657CAB853052BF3705F3E83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB93CE81EAF488100A06CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB93CE71EAF488100A06CC7 /* GlucometerTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB93CE91EAF488100A06CC7 /* GlucometerTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECB93CED1EAF488100A06CC7 /* AppDelegate.h */,
+				ECB93CEE1EAF488100A06CC7 /* AppDelegate.m */,
+				ECB93CF01EAF488100A06CC7 /* ViewController.h */,
+				ECB93CF11EAF488100A06CC7 /* ViewController.m */,
+				ECB93CF31EAF488100A06CC7 /* Main.storyboard */,
+				ECB93CF61EAF488100A06CC7 /* Assets.xcassets */,
+				ECB93CF81EAF488100A06CC7 /* LaunchScreen.storyboard */,
+				ECB93CFB1EAF488100A06CC7 /* Info.plist */,
+				ECB93CEA1EAF488100A06CC7 /* Supporting Files */,
+				ECB93D011EB06ED000A06CC7 /* TSPeripheralViewController.h */,
+				ECB93D021EB06ED000A06CC7 /* TSPeripheralViewController.m */,
+				ECB93D041EB0712300A06CC7 /* TSPeripheralManager.h */,
+				ECB93D051EB0712300A06CC7 /* TSPeripheralManager.m */,
+				ECB93D071EB07AD500A06CC7 /* TSCentralManager.h */,
+				ECB93D081EB07AD500A06CC7 /* TSCentralManager.m */,
+				ECB93D0A1EB084E100A06CC7 /* TSCentralViewController.h */,
+				ECB93D0B1EB084E100A06CC7 /* TSCentralViewController.m */,
+				ECB93D0D1EB18C5C00A06CC7 /* Message.h */,
+				ECB93D0E1EB18C5C00A06CC7 /* Message.m */,
+				EC8AA9E71ECAF0370012C309 /* Test.geojson */,
+			);
+			path = GlucometerTestApp;
+			sourceTree = "<group>";
+		};
+		ECB93CEA1EAF488100A06CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB93CEB1EAF488100A06CC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F657CAB853052BF3705F3E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				678715C9F3B63307CDCA9ECF /* libPods-GlucometerTestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB93CE61EAF488100A06CC7 /* GlucometerTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB93CFE1EAF488100A06CC7 /* Build configuration list for PBXNativeTarget "GlucometerTestApp" */;
+			buildPhases = (
+				A68157CAD6F8C25E7AD41D57 /* [CP] Check Pods Manifest.lock */,
+				ECB93CE31EAF488100A06CC7 /* Sources */,
+				ECB93CE41EAF488100A06CC7 /* Frameworks */,
+				ECB93CE51EAF488100A06CC7 /* Resources */,
+				8337CC1C158FBADB05730624 /* [CP] Embed Pods Frameworks */,
+				7FA6F7FF051613CB9F4C10A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucometerTestApp;
+			productName = GlucometerTestApp;
+			productReference = ECB93CE71EAF488100A06CC7 /* GlucometerTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB93CDF1EAF488100A06CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					ECB93CE61EAF488100A06CC7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K3KX659AR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECB93CE21EAF488100A06CC7 /* Build configuration list for PBXProject "GlucometerTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB93CDE1EAF488100A06CC7;
+			productRefGroup = ECB93CE81EAF488100A06CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB93CE61EAF488100A06CC7 /* GlucometerTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB93CE51EAF488100A06CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8AA9E81ECAF3310012C309 /* Test.geojson in Resources */,
+				ECB93CFA1EAF488100A06CC7 /* LaunchScreen.storyboard in Resources */,
+				ECB93CF71EAF488100A06CC7 /* Assets.xcassets in Resources */,
+				ECB93CF51EAF488100A06CC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA6F7FF051613CB9F4C10A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlucometerTestApp/Pods-GlucometerTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8337CC1C158FBADB05730624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlucometerTestApp/Pods-GlucometerTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68157CAD6F8C25E7AD41D57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB93CE31EAF488100A06CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB93D061EB0712300A06CC7 /* TSPeripheralManager.m in Sources */,
+				ECB93D0F1EB18C5C00A06CC7 /* Message.m in Sources */,
+				ECB93D0C1EB084E100A06CC7 /* TSCentralViewController.m in Sources */,
+				ECB93CF21EAF488100A06CC7 /* ViewController.m in Sources */,
+				ECB93D091EB07AD500A06CC7 /* TSCentralManager.m in Sources */,
+				ECB93D031EB06ED000A06CC7 /* TSPeripheralViewController.m in Sources */,
+				ECB93CEF1EAF488100A06CC7 /* AppDelegate.m in Sources */,
+				ECB93CEC1EAF488100A06CC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECB93CF31EAF488100A06CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB93CF41EAF488100A06CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB93CF81EAF488100A06CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB93CF91EAF488100A06CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB93CFC1EAF488100A06CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB93CFD1EAF488100A06CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB93CFF1EAF488100A06CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8C09AE57ED852B82BB2F57 /* Pods-GlucometerTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = GlucometerTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.GlucometerTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ECB93D001EAF488100A06CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F0FD7BE469B6A8AA976070 /* Pods-GlucometerTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jianwu huang (K3KX659AR4)";
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = GlucometerTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.GlucometerTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB93CE21EAF488100A06CC7 /* Build configuration list for PBXProject "GlucometerTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB93CFC1EAF488100A06CC7 /* Debug */,
+				ECB93CFD1EAF488100A06CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB93CFE1EAF488100A06CC7 /* Build configuration list for PBXNativeTarget "GlucometerTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB93CFF1EAF488100A06CC7 /* Debug */,
+				ECB93D001EAF488100A06CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB93CDF1EAF488100A06CC7 /* Project object */;
+}
